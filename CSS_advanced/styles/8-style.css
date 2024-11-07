@@ -29,7 +29,7 @@ body {
 	font-family: var(--font-family-base);
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
-	min-height: var(--line-height-base);
+	line-height: var(--line-height-base);
 }
 
 h1,
@@ -40,4 +40,20 @@ h5,
 h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
+}
+
+a {
+	color: var(--text-color);
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.card-category {
+	color: var(--color-primary);
+}
+
+.section-tagline {
+	color: var(--color-primary);
 }

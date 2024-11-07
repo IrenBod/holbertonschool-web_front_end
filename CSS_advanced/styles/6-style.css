@@ -37,3 +37,19 @@ h6 {
 	font-family: var(--font-family-title);
 	font-weight: var(--font-weight-bold);
 }
+
+a {
+	color: var(--text-color);
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.card-category {
+	color: var(--color-primary);
+}
+
+.section-tagline {
+	color: var(--color-primary);
+}
